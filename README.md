@@ -20,13 +20,13 @@ Following commands runs on Debian based distributions (apt for packet manager)
 
 For some reasons, some dependencies were not installed for me 🙄 : `apt-get install libffi6 libffi-dev`
 
-And some needed tools are missing and can be found only with first version of `pip`. Temporary install pip with pip3, you can remove it after if you want.
+And some needed tools are missing and can be found only with first version of **pip**. Temporary install pip with pip3, you can remove it after if you want.
 
-`pip3 install --upgrade pip`
-
-`pip install --upgrade setuptools`
-
-`pip install --upgrade pyopenssl`
+```
+pip3 install --upgrade pip
+pip install --upgrade setuptools
+pip install --upgrade pyopenssl
+```
 
 Finnaly, install firebase for server
 
